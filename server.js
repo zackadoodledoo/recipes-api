@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import { MongoClient } from "mongodb";
 import swaggerUi from "swagger-ui-express";
-import swaggerDocument from "../swagger.json" assert { type: "json" };
+import swaggerDocument from "./swagger.json" assert { type: "json" };
 
 dotenv.config();
 const app = express();
