@@ -1,7 +1,6 @@
 import dotenv from "dotenv"; 
 dotenv.config();
 import express from "express";
-import dotenv from "dotenv";
 import { MongoClient } from "mongodb";
 import swaggerUi from "swagger-ui-express";
 
