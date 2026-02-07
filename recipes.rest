@@ -1,0 +1,36 @@
+GET http://localhost:8080  HTTP/1.1
+
+##
+GET http://localhost:8080/recipes-api HTTP/1.1
+##
+GET http://localhost:8080/recipes/642d9c8e1a2b3c4d5e6f7a8 HTTP/1.1
+##
+POST http://localhost:8080/recipes HTTP/1.1
+    Content-Type: application/json
+
+    {
+        "name": "Chocolate Cake",
+        "ingredients": [
+            "2 cups flour",
+            "1 cup sugar",
+            "1 cup cocoa powder",
+            "1 tsp baking powder",
+            "1 tsp baking soda",
+            "1/2 tsp salt",
+            "1 cup milk",
+            "1/2 cup vegetable oil",
+            "2 eggs",
+            "2 tsp vanilla extract"
+        ],
+        "instructions": [
+            "Preheat oven to 350°F (175°C). Grease and flour a 9x13 inch pan.",
+            "In a large bowl, combine flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
+            "Add milk, vegetable oil, eggs, and vanilla extract. Mix until smooth.",
+            "Pour batter into prepared pan.",
+            "Bake for 30-35 minutes or until a toothpick inserted into the center comes out clean.",
+            "Allow to cool before serving."
+        ]
+    }
+
+##
+
