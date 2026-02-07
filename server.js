@@ -4,7 +4,6 @@ import express from "express";
 import { MongoClient } from "mongodb";
 import swaggerUi from "swagger-ui-express";
 
-console.log("MONGODB_URI:", process.env.MONGODB_URI);
 
 const app = express();
 const port = process.env.PORT || 8080;
