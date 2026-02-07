@@ -1,7 +1,7 @@
 {
   "name": "recipes-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Recipes API with Swagger docs",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/zackadoodledoo/recipes-api.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zackary",
   "license": "ISC",
   "type": "module",
   "bugs": {
@@ -30,5 +30,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
